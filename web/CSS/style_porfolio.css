@@ -1,0 +1,175 @@
+.bg_gray_tc_black {
+    background-color: lightgray;
+    color: black;
+}
+
+.important_text {
+    padding: 2%;
+    padding-left: 0%;
+    font-family: monospace;
+}
+
+.first_imp {
+    padding-top: 20%;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav_text {
+    margin-right: 2%;
+}
+.nav_padding {
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.images_on_main_column {
+    padding: 1%;
+    width: 35%;
+}
+
+.image_description {
+    font-family: monospace;
+    font-size: 90%;
+    padding-bottom: 1%;
+}
+
+.text_center {
+    text-align: center;
+}
+
+.elements_center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.coding_visual_1 {
+    border-radius: 5px 5px 5px 5px;
+    width: 35%;
+    background-color: lightgray;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.coding_visual_2 {
+    padding: 2%;
+    font-size: 100%;
+    font-family: monospace;
+    line-height: 150%;
+}
+
+.text2_coding_visual {
+    padding-left: 2%;
+}
+
+.bg_black_tc_white{
+    background-color: black;
+    color: white;
+    font-family: monospace;
+}
+
+.section2 {
+    margin-top: 3%;
+    background-color: lightgray;
+    height: 100%;
+}
+
+.text_of_section2 {
+    width: 50%;
+}
+
+.top_border {
+    padding: 2px;
+    margin-top: 20%;
+    background-color: gray;
+}
+
+#section_about_me, #section_of_contact, #section_of_resume, #section_of_portfolio {
+    margin-bottom: 3%;
+}
+
+.elements_right {
+    float: right;
+}
+
+.footer_font {
+    background-color: white;
+    color: black;
+    font-family: monospace;
+    padding-top: 3%;
+    padding-bottom: 0%;
+}
+
+.image_logo {
+    width: 50px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.big_text {
+    font-size: 200%;
+}
+
+.margin_left {
+    font-family: monospace;
+    font-size: 120%;
+}
+
+.center_footer {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.half_imp_text {
+    font-family: monospace;
+    font-size: 150%;
+    padding: 2%;    
+}
+
+.paragraph {
+    font-family: monospace;
+    line-height: 120%;
+    font-size: 110%;
+    margin-left: 4%;
+    vertical-align: middle;
+}
+
+.visual_project {
+    width: 100px;
+}
+
+.bottom_margin {
+    padding-bottom: 20%;
+}
+
+.margin_table {
+    padding-left: 4%;
+}
+
+/*         For Mobile           768px: Standard mobile width*/
+@media only screen and (max-width: 768px) {
+    .images_on_main_column {
+        width: 90%;
+    }
+
+    .coding_visual_1 {
+        width: 90%;
+    }
+
+    .text_of_section2 {
+        width: 90%;
+    }
+
+    .center_footer {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+    }
+}
